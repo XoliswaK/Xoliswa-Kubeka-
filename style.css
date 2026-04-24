@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f7f4;
+  color: #2e4d3c;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+ul, ol {
+  max-width: 600px;
+  margin: 10px auto 20px auto;
+}
+
+/* Smaller, clearer images */
+.image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Ensures centered image always stays centered */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
